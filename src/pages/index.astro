@@ -1,0 +1,158 @@
+---
+import { t, changeLanguage } from "i18next";
+import Layout from "../layouts/Layout.astro";
+
+changeLanguage("en");
+---
+
+<Layout title="David Munjishvili">
+  <main class="max-w-7xl p-8 mx-auto prose dark:prose-invert">
+    <header class="border-b-4 border-b-gray-800 dark:border-b-gray-300">
+      <h1 class="text-center mb-0">{t("header.fullName")}</h1>
+      <h2 class="text-center mt-2 font-normal text-gray-500 dark:text-gray-300">{t("header.position")}</h2>
+    </header>
+    <main class="mt-8 space-y-12 divide-y divide-dashed divide-gray-800 dark:divide-gray-300">
+      <section>
+        <p>{t("main.summaryContent")}</p>
+      </section>
+      <section>
+        <h2 class="text-center">Professional Experience</h2>
+        <ul class="space-y-8">
+          <li>
+            <h4>
+              HiRupert
+              <span class="font-normal text-sm text-gray-500 dark:text-gray-300">
+                (2023 Feb - present)
+              </span>
+            </h4>
+            <h3>Frontend Developer</h3>
+            <p class="ml-4">
+              Rupert is Israel based start and helps users create custom, data-driven alerts in minutes using no-code alert builder.
+              As a frontend developer it's my duty to ensure good user interface and experience.
+              Mix of React and Vue helps us use the best of both worlds and let the user's manage custom alerts.
+            </p>
+          </li>
+          <li>
+            <h4>
+              Rolletto
+              <span class="font-normal text-sm text-gray-500 dark:text-gray-300">
+                (2022 Oct - 2023 Feb)
+              </span>
+            </h4>
+            <h3>Lead Developer</h3>
+            <p class="ml-4">
+              Rolletto is an international online gambling website.
+              Initially I was offered a full-stack position to build their internal tooling for management,
+              but quickly I became a lead developer to handle their existing website's (written in jQuery) redesign and architectural decisions.
+              Internal website included front-end written in ReactJS which let users upload CSV of referral websites,
+              then this info was saved in PostgreSQL database and users could write SQL queries with simple UI, which didn't require SQL knowledge.
+              Backend was written in python with flask_restful framework.
+              Rolletto.com's redesign is planned in Remix.run.
+            </p>
+          </li>
+          <li>
+            <h4>
+              PulsarAI (Impel)
+              <span class="font-normal text-sm text-gray-500 dark:text-gray-300">
+                (2022 Feb - 2022 Oct)
+              </span>
+            </h4>
+            <h3>Middle Full-Stack developer</h3>
+            <p class="ml-4">
+              Impel is US based company for car dealerships.
+              It allows dealerships to capture their cars in 360, so users can spin and view car online.
+              Impel also offered AI virtual assistant to dealerships.
+              I worked on dashboard for dealerships and internal tools.
+              PulsarAI had rich tech-stack, including: ReactJS, nodeJS, flask, socket.io, scss, redux.
+            </p>
+          </li>
+          <li>
+            <h4>
+              Freelance
+              <span class="font-normal text-sm text-gray-500 dark:text-gray-300">
+                (2021 - present)
+              </span>
+            </h4>
+            <h3>Middle Full-Stack developer</h3>
+            <p class="ml-4">
+              I started working as a freelancer as soon as I finished learning Laravel.
+              Initially I was doing local freelance jobs.
+              As soon as I became 18, I registered on Fiverr and UpWork as a software engineer and I handled tasks from simple scripts to full-stack projects.
+              I also helped few local startups with their technical needs using: Next, Nuxt, Remix, solid.js, Laravel, etc.
+              My clients are Glovo Georgia, Lenovo Georgia and many local startups
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2 class="text-center">Education</h2>
+        <ul class="gap-2 grid grid-cols-2 lg:grid-cols-3">
+          <li>
+            <h3>
+              Computer Science
+            </h3>
+            <h4>
+              International Black Sea University
+            </h4>
+            <p>
+              2021 - present
+            </p>
+          </li>
+          <li>
+            <h3>
+              PHP Development
+            </h3>
+            <h4>
+              Information Technologies Academy
+            </h4>
+            <p>
+              2021
+            </p>
+          </li>
+          <li>
+            <h3>
+              Python Development
+            </h3>
+            <h4>
+              IT Center Mziuri
+            </h4>
+            <p>
+              2020
+            </p>
+          </li>
+          <li>
+            <h3>
+              Competitive Programming
+            </h3>
+            <h4>
+              IT Center Mziuri
+            </h4>
+            <p>
+              2017 - 2020
+            </p>
+          </li>
+          <li>
+            <h3>
+              Programming Basics
+            </h3>
+            <h4>
+              IT Center Mziuri
+            </h4>
+            <p>
+              2016 - 2017
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2 class="text-center">Contact</h2>
+        <ul class="grid grid-cols-3 gap-2">
+          <li><a href="tel:+995591080888">+995 591 08 08 88</a></li>
+          <li><a href="mailto:munjishvili@proton.me">munjishvili@proton.me</a></li>
+          <li><a href="https://www.linkedin.com/in/davidmunjishvili">linkedin.com</a></li>
+        </ul>
+      </section>
+    </main>
+  </main>
+</Layout>
+

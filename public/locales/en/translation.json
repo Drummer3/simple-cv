@@ -1,0 +1,13 @@
+{
+  "layout": {
+    "title": "David Munjishvili - Portfolio"
+  },
+  "header": {
+    "fullName": "David Munjishvili",
+    "position": "Software Engineer"
+  },
+  "main": {
+    "summary": "Summary",
+    "summaryContent": "Software engineer based in Tbilisi, Georgia, with a passion for programming that ignited at the age of 12. My journey began with competitive programming, where I mastered essential algorithms and honed my problem-solving skills. Over time, my focus shifted towards web development, and I'm now excited to apply my diverse skills and knowledge to the software engineering world"
+  }
+}
